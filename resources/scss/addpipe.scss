@@ -1,0 +1,243 @@
+/*Desktop client classes*/
+#canderModal{
+    .pipeRecordRTC{
+        position: relative;
+        text-align:center;
+    }
+
+    .pipeRecordRTC span{
+        position:absolute;
+        margin: 0;
+        left:50%;
+        top:50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        font-family:sans-serif;
+        font-size:18px;
+        cursor: pointer;
+    }
+
+    .pipeStartUploading {
+        position: absolute;
+        left: -99999rem
+    }
+
+    .pipeCustomUpload{
+        display:inline-block;
+        font-family:sans-serif;
+        color:#334455;
+        font-size:18px;
+        cursor: pointer;
+    }
+
+    .pipe-upload-label{
+        margin-bottom:0px;
+        font-weight:normal;
+        cursor: pointer;
+    }
+
+    .pipe-upload-label label:hover{
+        color:#556677;
+    }
+
+    .pipeUploadAnother{
+        position:absolute;
+        margin: 0;
+        left:50%;
+        top:57%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        font-family:sans-serif;
+        font-size:12px;
+        text-decoration:underline;
+        cursor: pointer;
+    }
+
+    .pipeBtn{
+        display:inline-block;
+        cursor:pointer;
+        opacity: 1;
+        -webkit-transition: .1s ease-in-out;
+        transition: .1s ease-in-out;
+    }
+
+    .pipeBtn:hover{
+        opacity: .8;
+    }
+
+    .pipeBtnOff{
+        display:inline-block;
+        opacity:0.1
+    }
+
+    .pipeTimer{
+        position:absolute;
+        margin-top:7px;
+        text-align:center;
+        font-family:sans-serif;
+        font-size:14px;
+    }
+
+    .pipeMicContainer{
+        display:inline-block;
+        float:right;
+    }
+
+    .pipeMicIconNoMenu{
+        display:inline-block;
+        position:absolute;
+        bottom:5px;
+        right:5px;
+    }
+
+    .pipeMeter-container{
+        margin:3px;
+        display: inline-block;
+        background: -webkit-linear-gradient(#e21d1d 4%, #ff9d00 12%, #fff200 22%, #f2ea00 37%, #52b152 59%, #52b152 59%, #008a00 79%);
+        width: 5px;
+        height: 24px;
+        display: hidden;
+    }
+
+    .pipeMeter{
+        display: inline-block;
+        position: absolute;
+        width:5px;
+        height:24px;
+        background: black;
+    }
+
+    .pipeNormal{
+        background-color:black;
+    }
+
+    .pipeMirrored{
+        background-color:black;
+        transform: rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+        -moz-transform:rotateY(180deg);
+    }
+
+    .pipeRotate90{
+        background-color:black;
+    -webkit-transform:rotate(90deg);
+    transform: rotate(90deg);
+    }
+
+    .pipeFlipVertically{
+        background-color:black;
+    -webkit-transform:rotateZ(180deg);
+    transform: rotateZ(180deg);
+    }
+
+    .pipeSmallNormal{
+        position: absolute;
+        left:0px;
+        top:0px;
+        z-index:1;
+    }
+
+    .pipeSmallMirrored{
+        position: absolute;
+        left:0px;
+        top:0px;
+        z-index:1;
+        transform: rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+        -moz-transform:rotateY(180deg);
+    }
+
+    .pipeMsgOverlay{
+        position: absolute;
+        width:30%;
+        height:50px;
+        background-color:#0f0f0f;
+        opacity: 0.6;
+        border-radius:10px;
+        z-index:1;
+    }
+
+    .pipeMsgOverlay div{
+        text-align:center;
+        vertical-align: middle;
+        line-height:50px;
+        font-family:sans-serif;
+        color:#ffffff;
+        font-size:18px;
+    }
+
+    .pipeTopMessage{
+    position:absolute;
+    width:30%;
+    height:15px;
+    background-color:#0f0f0f;
+    opacity: 0.6;
+    border-bottom-left-radius:3px;
+    border-bottom-right-radius:3px;
+    z-index:1
+    }
+
+    .pipeTopMessage div {
+    text-align:center;
+    vertical-align: middle;
+    font-family:sans-serif;
+    color:#ffffff;
+    font-size:10px;
+    }
+
+    .pipeError{
+        position:relative;
+        background-color:#363738;
+        display:none;
+    }
+
+    .pipeError p{
+        position:absolute;
+        margin: 0;
+        left:50%;
+        top:50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        text-align:center;
+        font-family:sans-serif;
+        font-size:18px;
+        color:#ffffff;
+    }
+
+    .getFlash{
+        position:relative;
+        background-color:#363738;
+    }
+
+    .getFlash p{
+        text-decoration:underline;
+        position:absolute;
+        margin: 0;
+        left:50%;
+        top:50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        text-align:center;
+        font-family:sans-serif;
+        color:#ffffff;
+    }
+
+    /*Mobile client classes*/
+
+    .pipeFileInput{
+        text-align:center;
+        display:inline-block;
+        background:-webkit-linear-gradient(top,#f9f9f9,#e3e3e3);
+        border:1px solid #999;
+        border-radius:3px;
+        padding:10px;
+        outline:0;
+    -webkit-user-select:none;
+    }
+
+    .pipeMobileRecorder{
+        text-align:center;
+        width:100%;
+        margin:10px 0px;
+    }
+}

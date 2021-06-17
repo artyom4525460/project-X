@@ -1,0 +1,571 @@
+{
+    "cardCategories": [
+        {
+            "id": 68,
+            "tag": "BIRTHDAY",
+            "name": "BIRTHDAY",
+            "cards": [
+                {
+                    "id": 179,
+                    "categoryTags": [
+                        "BIRTHDAY"
+                    ],
+                    "media": {
+                        "id": 5365,
+                        "type": "Photo",
+                        "path": "https://cdn1.cander-dev.com/media/photos/2020/12/22/d8f7c1bb-922e-4d48-a32b-f80d6b46ff13.jpg",
+                        "thumbnailPath": "https://cdn1.cander-dev.com/media/photos/2020/12/22/d8f7c1bb-922e-4d48-a32b-f80d6b46ff13_t.jpg",
+                        "height": 1920,
+                        "width": 1080,
+                        "duration": "PT0S",
+                        "linkType": "GreetingCard",
+                        "linkId": null,
+                        "contentType": "image/jpeg",
+                        "photo": true
+                    }
+                },
+                {
+                    "id": 212,
+                    "categoryTags": [
+                        "BIRTHDAY",
+                        "LOVE"
+                    ],
+                    "media": {
+                        "id": 5662,
+                        "type": "Photo",
+                        "path": "https://cdn1.cander-dev.com/media/photos/2021/01/21/ade10cee-0c21-4043-9b54-0599f96ef965.jpg",
+                        "thumbnailPath": "https://cdn1.cander-dev.com/media/photos/2021/01/21/ade10cee-0c21-4043-9b54-0599f96ef965_t.jpg",
+                        "height": 1636,
+                        "width": 920,
+                        "duration": "PT0S",
+                        "linkType": "GreetingCard",
+                        "linkId": null,
+                        "contentType": "image/jpeg",
+                        "photo": true
+                    }
+                },
+                {
+                    "id": 214,
+                    "categoryTags": [
+                        "BIRTHDAY"
+                    ],
+                    "media": {
+                        "id": 5664,
+                        "type": "Photo",
+                        "path": "https://cdn1.cander-dev.com/media/photos/2021/01/22/be92a364-67b8-4736-aa65-baf28f852ac0.jpg",
+                        "thumbnailPath": "https://cdn1.cander-dev.com/media/photos/2021/01/22/be92a364-67b8-4736-aa65-baf28f852ac0_t.jpg",
+                        "height": 5333,
+                        "width": 3000,
+                        "duration": "PT0S",
+                        "linkType": "GreetingCard",
+                        "linkId": null,
+                        "contentType": "image/jpeg",
+                        "photo": true
+                    }
+                },
+                {
+                    "id": 216,
+                    "categoryTags": [
+                        "BIRTHDAY"
+                    ],
+                    "media": {
+                        "id": 5666,
+                        "type": "Photo",
+                        "path": "https://cdn1.cander-dev.com/media/photos/2021/01/22/9bd1d195-2990-449a-bf59-7a12793afac3.jpg",
+                        "thumbnailPath": "https://cdn1.cander-dev.com/media/photos/2021/01/22/9bd1d195-2990-449a-bf59-7a12793afac3_t.jpg",
+                        "height": 5333,
+                        "width": 3000,
+                        "duration": "PT0S",
+                        "linkType": "GreetingCard",
+                        "linkId": null,
+                        "contentType": "image/jpeg",
+                        "photo": true
+                    }
+                },
+                {
+                    "id": 217,
+                    "categoryTags": [
+                        "BIRTHDAY"
+                    ],
+                    "media": {
+                        "id": 5667,
+                        "type": "Photo",
+                        "path": "https://cdn1.cander-dev.com/media/photos/2021/01/22/45850302-559d-41a2-908d-202e051f7483.jpg",
+                        "thumbnailPath": "https://cdn1.cander-dev.com/media/photos/2021/01/22/45850302-559d-41a2-908d-202e051f7483_t.jpg",
+                        "height": 8110,
+                        "width": 4562,
+                        "duration": "PT0S",
+                        "linkType": "GreetingCard",
+                        "linkId": null,
+                        "contentType": "image/jpeg",
+                        "photo": true
+                    }
+                },
+                {
+                    "id": 218,
+                    "categoryTags": [
+                        "BIRTHDAY"
+                    ],
+                    "media": {
+                        "id": 5669,
+                        "type": "Photo",
+                        "path": "https://cdn1.cander-dev.com/media/photos/2021/01/22/11b40db0-e81d-4ae4-b57e-93867077c166.jpg",
+                        "thumbnailPath": "https://cdn1.cander-dev.com/media/photos/2021/01/22/11b40db0-e81d-4ae4-b57e-93867077c166_t.jpg",
+                        "height": 1636,
+                        "width": 920,
+                        "duration": "PT0S",
+                        "linkType": "GreetingCard",
+                        "linkId": null,
+                        "contentType": "image/jpeg",
+                        "photo": true
+                    }
+                },
+                {
+                    "id": 219,
+                    "categoryTags": [
+                        "BIRTHDAY"
+                    ],
+                    "media": {
+                        "id": 5687,
+                        "type": "Photo",
+                        "path": "https://cdn1.cander-dev.com/media/photos/2021/01/26/583d0f45-2cae-4553-a61c-21e71274bb11.jpg",
+                        "thumbnailPath": "https://cdn1.cander-dev.com/media/photos/2021/01/26/583d0f45-2cae-4553-a61c-21e71274bb11_t.jpg",
+                        "height": 8066,
+                        "width": 4640,
+                        "duration": "PT0S",
+                        "linkType": "GreetingCard",
+                        "linkId": null,
+                        "contentType": "image/jpeg",
+                        "photo": true
+                    }
+                },
+                {
+                    "id": 220,
+                    "categoryTags": [
+                        "BIRTHDAY"
+                    ],
+                    "media": {
+                        "id": 5688,
+                        "type": "Photo",
+                        "path": "https://cdn1.cander-dev.com/media/photos/2021/01/26/1f995452-faf4-4f67-a39c-b2cceb63db1b.jpg",
+                        "thumbnailPath": "https://cdn1.cander-dev.com/media/photos/2021/01/26/1f995452-faf4-4f67-a39c-b2cceb63db1b_t.jpg",
+                        "height": 5333,
+                        "width": 3000,
+                        "duration": "PT0S",
+                        "linkType": "GreetingCard",
+                        "linkId": null,
+                        "contentType": "image/jpeg",
+                        "photo": true
+                    }
+                },
+                {
+                    "id": 221,
+                    "categoryTags": [
+                        "BIRTHDAY"
+                    ],
+                    "media": {
+                        "id": 5689,
+                        "type": "Photo",
+                        "path": "https://cdn1.cander-dev.com/media/photos/2021/01/26/b0decbc1-3542-4f6a-8a52-968ade648c21.jpg",
+                        "thumbnailPath": "https://cdn1.cander-dev.com/media/photos/2021/01/26/b0decbc1-3542-4f6a-8a52-968ade648c21_t.jpg",
+                        "height": 1636,
+                        "width": 920,
+                        "duration": "PT0S",
+                        "linkType": "GreetingCard",
+                        "linkId": null,
+                        "contentType": "image/jpeg",
+                        "photo": true
+                    }
+                },
+                {
+                    "id": 222,
+                    "categoryTags": [
+                        "BIRTHDAY"
+                    ],
+                    "media": {
+                        "id": 5690,
+                        "type": "Photo",
+                        "path": "https://cdn1.cander-dev.com/media/photos/2021/01/26/12ee715a-cecc-4be9-a9a7-5c53d5ee72d8.jpg",
+                        "thumbnailPath": "https://cdn1.cander-dev.com/media/photos/2021/01/26/12ee715a-cecc-4be9-a9a7-5c53d5ee72d8_t.jpg",
+                        "height": 1920,
+                        "width": 1080,
+                        "duration": "PT0S",
+                        "linkType": "GreetingCard",
+                        "linkId": null,
+                        "contentType": "image/jpeg",
+                        "photo": true
+                    }
+                },
+                {
+                    "id": 223,
+                    "categoryTags": [
+                        "BIRTHDAY"
+                    ],
+                    "media": {
+                        "id": 5691,
+                        "type": "Photo",
+                        "path": "https://cdn1.cander-dev.com/media/photos/2021/01/26/fc7e5c76-d3a2-4372-b5c8-f6f7e0c12277.jpg",
+                        "thumbnailPath": "https://cdn1.cander-dev.com/media/photos/2021/01/26/fc7e5c76-d3a2-4372-b5c8-f6f7e0c12277_t.jpg",
+                        "height": 1920,
+                        "width": 1080,
+                        "duration": "PT0S",
+                        "linkType": "GreetingCard",
+                        "linkId": null,
+                        "contentType": "image/jpeg",
+                        "photo": true
+                    }
+                },
+                {
+                    "id": 224,
+                    "categoryTags": [
+                        "BIRTHDAY"
+                    ],
+                    "media": {
+                        "id": 5692,
+                        "type": "Photo",
+                        "path": "https://cdn1.cander-dev.com/media/photos/2021/01/26/c779e082-f071-496a-8b61-c11548a7b34a.jpg",
+                        "thumbnailPath": "https://cdn1.cander-dev.com/media/photos/2021/01/26/c779e082-f071-496a-8b61-c11548a7b34a_t.jpg",
+                        "height": 1920,
+                        "width": 1080,
+                        "duration": "PT0S",
+                        "linkType": "GreetingCard",
+                        "linkId": null,
+                        "contentType": "image/jpeg",
+                        "photo": true
+                    }
+                },
+                {
+                    "id": 225,
+                    "categoryTags": [
+                        "BIRTHDAY"
+                    ],
+                    "media": {
+                        "id": 5693,
+                        "type": "Photo",
+                        "path": "https://cdn1.cander-dev.com/media/photos/2021/01/26/384bc7ff-d003-4b65-adfa-54f0afb115c1.jpg",
+                        "thumbnailPath": "https://cdn1.cander-dev.com/media/photos/2021/01/26/384bc7ff-d003-4b65-adfa-54f0afb115c1_t.jpg",
+                        "height": 1920,
+                        "width": 1080,
+                        "duration": "PT0S",
+                        "linkType": "GreetingCard",
+                        "linkId": null,
+                        "contentType": "image/jpeg",
+                        "photo": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": 75,
+            "tag": "LOVE",
+            "name": "LOVE",
+            "cards": [
+                {
+                    "id": 187,
+                    "categoryTags": [
+                        "LOVE"
+                    ],
+                    "media": {
+                        "id": 5373,
+                        "type": "Photo",
+                        "path": "https://cdn1.cander-dev.com/media/photos/2020/12/22/2254c48a-45d9-4b2e-9a99-58cfd287ae2f.jpg",
+                        "thumbnailPath": "https://cdn1.cander-dev.com/media/photos/2020/12/22/2254c48a-45d9-4b2e-9a99-58cfd287ae2f_t.jpg",
+                        "height": 1636,
+                        "width": 920,
+                        "duration": "PT0S",
+                        "linkType": "GreetingCard",
+                        "linkId": null,
+                        "contentType": "image/jpeg",
+                        "photo": true
+                    }
+                },
+                {
+                    "id": 188,
+                    "categoryTags": [
+                        "LOVE"
+                    ],
+                    "media": {
+                        "id": 5374,
+                        "type": "Photo",
+                        "path": "https://cdn1.cander-dev.com/media/photos/2020/12/22/992c4f8d-ca12-40a6-a11a-9de7d952581c.jpg",
+                        "thumbnailPath": "https://cdn1.cander-dev.com/media/photos/2020/12/22/992c4f8d-ca12-40a6-a11a-9de7d952581c_t.jpg",
+                        "height": 1636,
+                        "width": 920,
+                        "duration": "PT0S",
+                        "linkType": "GreetingCard",
+                        "linkId": null,
+                        "contentType": "image/jpeg",
+                        "photo": true
+                    }
+                },
+                {
+                    "id": 189,
+                    "categoryTags": [
+                        "LOVE"
+                    ],
+                    "media": {
+                        "id": 5375,
+                        "type": "Photo",
+                        "path": "https://cdn1.cander-dev.com/media/photos/2020/12/22/aec182d4-b74e-450e-9dee-446b70aee4da.jpg",
+                        "thumbnailPath": "https://cdn1.cander-dev.com/media/photos/2020/12/22/aec182d4-b74e-450e-9dee-446b70aee4da_t.jpg",
+                        "height": 1636,
+                        "width": 920,
+                        "duration": "PT0S",
+                        "linkType": "GreetingCard",
+                        "linkId": null,
+                        "contentType": "image/jpeg",
+                        "photo": true
+                    }
+                },
+                {
+                    "id": 190,
+                    "categoryTags": [
+                        "LOVE"
+                    ],
+                    "media": {
+                        "id": 5376,
+                        "type": "Photo",
+                        "path": "https://cdn1.cander-dev.com/media/photos/2020/12/22/d519edbb-75ec-4ee9-9b93-8c2fced3be38.jpg",
+                        "thumbnailPath": "https://cdn1.cander-dev.com/media/photos/2020/12/22/d519edbb-75ec-4ee9-9b93-8c2fced3be38_t.jpg",
+                        "height": 1636,
+                        "width": 920,
+                        "duration": "PT0S",
+                        "linkType": "GreetingCard",
+                        "linkId": null,
+                        "contentType": "image/jpeg",
+                        "photo": true
+                    }
+                },
+                {
+                    "id": 191,
+                    "categoryTags": [
+                        "LOVE"
+                    ],
+                    "media": {
+                        "id": 5377,
+                        "type": "Photo",
+                        "path": "https://cdn1.cander-dev.com/media/photos/2020/12/22/cf1a4320-5760-4d7f-9c12-f42ca7992788.jpg",
+                        "thumbnailPath": "https://cdn1.cander-dev.com/media/photos/2020/12/22/cf1a4320-5760-4d7f-9c12-f42ca7992788_t.jpg",
+                        "height": 1636,
+                        "width": 920,
+                        "duration": "PT0S",
+                        "linkType": "GreetingCard",
+                        "linkId": null,
+                        "contentType": "image/jpeg",
+                        "photo": true
+                    }
+                },
+                {
+                    "id": 192,
+                    "categoryTags": [
+                        "LOVE"
+                    ],
+                    "media": {
+                        "id": 5378,
+                        "type": "Photo",
+                        "path": "https://cdn1.cander-dev.com/media/photos/2020/12/22/b1ce5884-c9c3-4173-8d06-afa325219035.jpg",
+                        "thumbnailPath": "https://cdn1.cander-dev.com/media/photos/2020/12/22/b1ce5884-c9c3-4173-8d06-afa325219035_t.jpg",
+                        "height": 1636,
+                        "width": 920,
+                        "duration": "PT0S",
+                        "linkType": "GreetingCard",
+                        "linkId": null,
+                        "contentType": "image/jpeg",
+                        "photo": true
+                    }
+                },
+                {
+                    "id": 212,
+                    "categoryTags": [
+                        "BIRTHDAY",
+                        "LOVE"
+                    ],
+                    "media": {
+                        "id": 5662,
+                        "type": "Photo",
+                        "path": "https://cdn1.cander-dev.com/media/photos/2021/01/21/ade10cee-0c21-4043-9b54-0599f96ef965.jpg",
+                        "thumbnailPath": "https://cdn1.cander-dev.com/media/photos/2021/01/21/ade10cee-0c21-4043-9b54-0599f96ef965_t.jpg",
+                        "height": 1636,
+                        "width": 920,
+                        "duration": "PT0S",
+                        "linkType": "GreetingCard",
+                        "linkId": null,
+                        "contentType": "image/jpeg",
+                        "photo": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": 38,
+            "tag": "THANK YOU",
+            "name": "THANK YOU",
+            "cards": [
+                {
+                    "id": 193,
+                    "categoryTags": [
+                        "THANK YOU"
+                    ],
+                    "media": {
+                        "id": 5379,
+                        "type": "Photo",
+                        "path": "https://cdn1.cander-dev.com/media/photos/2020/12/22/4c5772ff-aaf0-4a37-ac5e-72bf931e6314.jpg",
+                        "thumbnailPath": "https://cdn1.cander-dev.com/media/photos/2020/12/22/4c5772ff-aaf0-4a37-ac5e-72bf931e6314_t.jpg",
+                        "height": 5333,
+                        "width": 3000,
+                        "duration": "PT0S",
+                        "linkType": "GreetingCard",
+                        "linkId": null,
+                        "contentType": "image/jpeg",
+                        "photo": true
+                    }
+                },
+                {
+                    "id": 194,
+                    "categoryTags": [
+                        "THANK YOU"
+                    ],
+                    "media": {
+                        "id": 5380,
+                        "type": "Photo",
+                        "path": "https://cdn1.cander-dev.com/media/photos/2020/12/22/d7e91b2f-46a4-4047-b306-715ed7af90d3.jpg",
+                        "thumbnailPath": "https://cdn1.cander-dev.com/media/photos/2020/12/22/d7e91b2f-46a4-4047-b306-715ed7af90d3_t.jpg",
+                        "height": 5333,
+                        "width": 3000,
+                        "duration": "PT0S",
+                        "linkType": "GreetingCard",
+                        "linkId": null,
+                        "contentType": "image/jpeg",
+                        "photo": true
+                    }
+                },
+                {
+                    "id": 195,
+                    "categoryTags": [
+                        "THANK YOU"
+                    ],
+                    "media": {
+                        "id": 5381,
+                        "type": "Photo",
+                        "path": "https://cdn1.cander-dev.com/media/photos/2020/12/22/288f7678-c4c6-4a62-aa42-f523685e2304.jpg",
+                        "thumbnailPath": "https://cdn1.cander-dev.com/media/photos/2020/12/22/288f7678-c4c6-4a62-aa42-f523685e2304_t.jpg",
+                        "height": 5333,
+                        "width": 3000,
+                        "duration": "PT0S",
+                        "linkType": "GreetingCard",
+                        "linkId": null,
+                        "contentType": "image/jpeg",
+                        "photo": true
+                    }
+                },
+                {
+                    "id": 196,
+                    "categoryTags": [
+                        "THANK YOU"
+                    ],
+                    "media": {
+                        "id": 5382,
+                        "type": "Photo",
+                        "path": "https://cdn1.cander-dev.com/media/photos/2020/12/22/73919064-31c0-4d63-8039-e0cefebeeaf9.jpg",
+                        "thumbnailPath": "https://cdn1.cander-dev.com/media/photos/2020/12/22/73919064-31c0-4d63-8039-e0cefebeeaf9_t.jpg",
+                        "height": 5333,
+                        "width": 3000,
+                        "duration": "PT0S",
+                        "linkType": "GreetingCard",
+                        "linkId": null,
+                        "contentType": "image/jpeg",
+                        "photo": true
+                    }
+                },
+                {
+                    "id": 197,
+                    "categoryTags": [
+                        "THANK YOU"
+                    ],
+                    "media": {
+                        "id": 5383,
+                        "type": "Photo",
+                        "path": "https://cdn1.cander-dev.com/media/photos/2020/12/22/b556e57a-0365-43c3-93d9-6b67b6fedb1e.jpg",
+                        "thumbnailPath": "https://cdn1.cander-dev.com/media/photos/2020/12/22/b556e57a-0365-43c3-93d9-6b67b6fedb1e_t.jpg",
+                        "height": 5333,
+                        "width": 3000,
+                        "duration": "PT0S",
+                        "linkType": "GreetingCard",
+                        "linkId": null,
+                        "contentType": "image/jpeg",
+                        "photo": true
+                    }
+                },
+                {
+                    "id": 198,
+                    "categoryTags": [
+                        "THANK YOU"
+                    ],
+                    "media": {
+                        "id": 5384,
+                        "type": "Photo",
+                        "path": "https://cdn1.cander-dev.com/media/photos/2020/12/22/02cee5c2-dc3a-45d7-a8d4-47fd12a34238.jpg",
+                        "thumbnailPath": "https://cdn1.cander-dev.com/media/photos/2020/12/22/02cee5c2-dc3a-45d7-a8d4-47fd12a34238_t.jpg",
+                        "height": 5333,
+                        "width": 3000,
+                        "duration": "PT0S",
+                        "linkType": "GreetingCard",
+                        "linkId": null,
+                        "contentType": "image/jpeg",
+                        "photo": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "tag": "ANNIVERSARY",
+            "name": "ANNIVERSARY",
+            "cards": [
+                {
+                    "id": 202,
+                    "categoryTags": [
+                        "ANNIVERSARY"
+                    ],
+                    "media": {
+                        "id": 5539,
+                        "type": "Photo",
+                        "path": "https://cdn1.cander-dev.com/media/photos/2021/01/04/4306f1a2-48bc-40af-af3d-8abe059a5055.jpg",
+                        "thumbnailPath": "https://cdn1.cander-dev.com/media/photos/2021/01/04/4306f1a2-48bc-40af-af3d-8abe059a5055_t.jpg",
+                        "height": 939,
+                        "width": 526,
+                        "duration": "PT0S",
+                        "linkType": "GreetingCard",
+                        "linkId": null,
+                        "contentType": "image/jpeg",
+                        "photo": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": 40,
+            "tag": "CHRISTMAS",
+            "name": "CHRISTMAS",
+            "cards": []
+        },
+        {
+            "id": 6,
+            "tag": "fathersDay",
+            "name": "FATHER'S DAY",
+            "cards": []
+        },
+        {
+            "id": 7,
+            "tag": "graduation",
+            "name": "GRADUATION",
+            "cards": []
+        },
+        {
+            "id": 8,
+            "tag": "valentinesDay",
+            "name": "VALENTINE'S DAY",
+            "cards": []
+        }
+    ]
+}

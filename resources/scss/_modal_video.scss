@@ -1,0 +1,270 @@
+#canderModal{
+
+    #canderVideoPage{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cander-video-block{
+        position: relative;
+        width: fit-content;
+        height: fit-content;
+        video{
+            //width: calc(100vh - 100px);
+            max-width: 100%;
+            margin: 0 auto;
+            max-height: calc(100vh - 100px);
+        }
+        .cander-video-button-block{
+            position: absolute;
+            bottom: 50px;
+            left: 50%;
+            transform: translate(-50%, 0);
+            z-index: 6;
+            .cander-video-recover-button{
+                text-align: center;
+                cursor: pointer;
+                img{
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+
+    #canderAudioPage{
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .cander-audio-block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        .cander-audio-image{
+            height: 50%;
+            img{
+                margin: 0 auto;
+            }
+        }
+        .cander-audio-button-block{
+            height: 50%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .cander-audio-recover-button{
+                cursor: pointer;
+            }
+        }
+    }
+
+    .cander-audio-block, .cander-video-block{
+        svg{
+            margin: 0 auto;
+        }
+    }
+
+    #canderImageScreen{
+        .cander-editor-block{
+            height: 100% !important;
+            width: 100%;
+            position: relative;
+            iframe{
+                width: 100%;
+                height: 100%;
+                position: relative;
+            }
+            .cander-editor-block-preloader{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            .cander-editor-buttons{
+                display: flex;
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                width: 120px;
+                top: 10px;
+                align-items: flex-start;
+                z-index: 10;
+                justify-content: flex-start;
+                @media (min-width: 1053px) {
+                    right: 200px;
+                }
+                #canderEditorDoneButton{
+                    background: rgb(54, 90, 252);
+                    color: #fff;
+                    font-size: 18px;
+                    width: 100px;
+                    height: 50px;
+                    border-radius: 10px;
+                    margin: 0 10px;
+                }
+                #canderCloseSourceButton{
+                    position: absolute;
+                    top: 0;
+                }
+            }
+            .jodit-container{
+                height: 100% !important;
+                .jodit-workplace{
+                    height: 85% !important;
+                }
+            }
+        }
+        .tui-image-editor-container{
+            height: 100% !important;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        .tui-image-editor-header-logo, .tui-image-editor-header-buttons{
+            display: none !important;
+        }
+        .tui-image-editor-header{
+            min-width: auto;
+        }
+        .tui-colorpicker-clearfix{
+            li input{
+                width: 10px;
+                height: 10px;
+            }
+        }
+        .tui-image-editor-container .svg_ic-menu {
+            width: 16px;
+            height: 16px;
+        }
+        .tui-image-editor-submenu {
+            width: 145px;
+        }
+        .tui-image-editor{
+            left: 0 !important;
+        }
+        .tui-image-editor-button, .tui-image-editor-partition > div{
+            //margin: 0 4px 0 4px;
+        }
+        .tui-image-editor-submenu{
+            width: 100%;
+        }
+        .tie-icon-add-button{
+            max-width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .tui-image-editor-submenu-item{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: nowrap;
+            .tui-image-editor-button > div{
+                position: relative;
+            }
+        }
+        .tui-image-editor-container .tui-image-editor-submenu .tui-image-editor-submenu-item .tui-image-editor-button{
+            margin: 0 6px 0 6px;
+        }
+        .tui-image-editor-menu-text, .tui-image-editor-menu-shape, .tui-image-editor-menu-draw{
+            .tui-image-editor-submenu-item{
+                flex-wrap: wrap;
+            }
+        }
+        .tui-image-editor-menu-text{
+            .tui-image-editor-button{
+                margin: 0 10px 0 10px;
+            }
+        }
+        .tui-image-editor-main-container{
+            .tie-draw-color{
+                position: static;
+            }
+            .color-picker-control{
+                left: 50% !important;
+                top: -50px !important;
+                transform: translate(-50%, 0);
+                width: fit-content;
+                .triangle{
+                    display: none;
+                }
+            }
+        }
+        .tui-image-editor-container .tui-image-editor-button {
+            position: static;
+        }
+        .tie-btn-deleteAll, .tie-btn-delete, .tui-image-editor-icpartition, .tie-btn-rotate, .tie-btn-reset, .tie-btn-flip, .tie-btn-mask{
+            display: none;
+        }
+        .tui-image-editor-submenu-item{
+            input{
+                position: relative;
+            }
+        }
+        .cander-button-block{
+            // height: 15%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .cander-button-block{
+        // height: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @media(max-width: $max-600){
+            flex-direction: column;
+        }
+        .cander-mobile-block{
+            display: none;
+            @media(max-width: $max-600){
+                display: block;
+            }
+        }
+        .cander-desctop-block{
+            display: block;
+            @media(max-width: $max-600){
+                display: none;
+            }
+        }
+        .cander-button{
+            width: 188px;
+            margin: 10px;
+            height: 48px !important;
+            @media(max-width: $max-600){
+                width: 100%;
+            }
+            @media (max-width: 375px) {
+                margin: 5px;
+                height: 40px !important;
+            }
+        }
+        .cander-secondary-button{
+            background-color: #fff;
+            border: 1px solid #D53E20;
+            font-size: 16px;
+        }
+    }
+
+    #canderVideoPage, #canderAudioPage, #canderImageScreen{
+        position: relative;
+        z-index: 10;
+        background-color: #f2f3fc;
+    }
+
+    #canderCloseSourceButton{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+        font-size: 30px;
+        color: #000;
+    }
+}

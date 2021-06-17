@@ -1,0 +1,45 @@
+$theme-font-path: 'https://candershopifyapp.com';
+
+@font-face {
+    font-family: "Brandon"; 
+    src: url("#{$theme-font-path}/fonts/BrandonText-Regular.eot"); 
+    src: url("#{$theme-font-path}/fonts/BrandonText-Regular.eot") format("embedded-opentype"),
+         url("#{$theme-font-path}/fonts/BrandonText-Regular.woff") format("woff"), 
+         url("#{$theme-font-path}/fonts/BrandonText-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: "Brandon"; 
+    src: url("#{$theme-font-path}/fonts/BrandonText-Bold.eot"); 
+    src: url("#{$theme-font-path}/fonts/BrandonText-Bold.eot") format("embedded-opentype"),
+         url("#{$theme-font-path}/fonts/BrandonText-Bold.woff") format("woff"), 
+         url("#{$theme-font-path}/fonts/BrandonText-Bold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: bold; 
+}
+
+@font-face {
+    font-family: "Brandon"; 
+    src: url("#{$theme-font-path}/fonts/BrandonText-Black.eot"); 
+    src: url("#{$theme-font-path}/fonts/BrandonText-Black.eot") format("embedded-opentype"),
+         url("#{$theme-font-path}/fonts/BrandonText-Black.woff") format("woff"), 
+         url("#{$theme-font-path}/fonts/BrandonText-Black.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Rubik";
+    src: url("#{$theme-font-path}/fonts/Rubik-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Rubik";
+    src: url("#{$theme-font-path}/fonts/Rubik-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}

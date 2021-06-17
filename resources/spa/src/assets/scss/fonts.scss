@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Brandon"; 
+    src: url("../fonts/BrandonText-Regular.eot"); 
+    src: url("../fonts/BrandonText-Regular.eot") format("embedded-opentype"),
+         url("../fonts/BrandonText-Regular.woff") format("woff"), 
+         url("../fonts/BrandonText-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: "Brandon"; 
+    src: url("../fonts/BrandonText-Bold.eot"); 
+    src: url("../fonts/BrandonText-Bold.eot") format("embedded-opentype"),
+         url("../fonts/BrandonText-Bold.woff") format("woff"), 
+         url("../fonts/BrandonText-Bold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: bold; 
+}
+
+@font-face {
+    font-family: "Brandon"; 
+    src: url("../fonts/BrandonText-Black.eot"); 
+    src: url("../fonts/BrandonText-Black.eot") format("embedded-opentype"),
+         url("../fonts/BrandonText-Black.woff") format("woff"), 
+         url("../fonts/BrandonText-Black.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Rubik";
+    src: url("../fonts/Rubik-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Rubik";
+    src: url("../fonts/Rubik-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}

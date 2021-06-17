@@ -1,0 +1,938 @@
+$max-mobile: 900px;
+
+$min-desktop: 1240px;
+
+$max-600: 600px;
+
+$theme-font-path: 'https://candershopifyapp.com';
+
+$cander-red: #D53E20;
+$cander-border-hover: #FAB4A6;
+$cander-border: #D5D5D5;
+$cander-background-active: #FAF5F4;
+$cander-pink: #FAF5F4;
+$cander-dark-pink: #F8E9E6;
+
+.canderInitial{
+    max-width: 602px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Rubik", sans-serif;
+    z-index: 5;
+    overflow: hidden;
+    .cander-initial-block-background{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+
+        background-repeat: no-repeat;
+        background-position: 0 calc(100% + 31px);
+        @media(max-width: $max-600){
+            // background-size: auto 100%;
+            // opacity: 0.5;
+            // height: 117%;
+            // background-position: 0 100%;
+            background: none !important;
+        }
+    }
+    .cander-initial-block{
+        position: relative;
+        z-index: 10;
+        max-width: 355px;
+        padding: 23px 0;
+        margin: 0 62px;
+        text-align: center;
+        font-size: 16px;
+        @media(max-width: $max-600){
+            width: 100%;
+            max-width: 313px;
+            padding: 25px 0;
+            margin: 0 auto;
+            #canderBottomText{
+                display: none;
+            }
+        }
+    }
+    img{
+        margin: 0 auto;
+    }
+    .button-preloader{
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        right: 10%;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .cander-small-text{
+        font-size: 12px;
+        font-weight: normal;
+    }
+    .cander-link{
+        font-size: 12px;
+        font-weight: normal;
+        text-decoration: underline;
+        color: #000;
+        &:hover{
+            color: #000;
+            text-decoration: underline;
+        }
+    }
+    p{
+        color: #333333;
+        font-size: 17px;
+        line-height: 24px;
+        font-weight: 400;
+        @media(max-width: $max-600){
+            font-size: 15px;
+            line-height: 22px;
+            margin-bottom: 15px;
+        }
+    }
+    .canderInitial-image{
+        display: none;
+        @media(max-width: $max-600){
+            display: block;
+            width: 43px;
+            margin: 0 auto 15px;
+        }
+    }
+    
+    .cander-success-text{
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 20px;
+        position: relative;
+        color: #27AE60;
+        padding-left: 34px;
+        width: fit-content;
+        &:before{
+            position: absolute;
+            left: 0;
+            bottom: 2px;
+            content: '';
+            background: url('#{$theme-font-path}/images/check.svg');
+            width: 18px;
+            height: 14px;
+            background-size: cover;
+        }
+    }
+
+    &.cander-initial-precheckout{
+        max-width: 602px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        @media (max-width: $max-600) {
+            .cander-initial-block-background{
+                background-image: none !important;
+            }
+            margin: 20px 0;
+        }
+        .cander-secondary-button{
+            color: #fff !important;
+        }
+        .canderButtonNoThanks.cander-secondary-button{
+            color: #D53E20 !important;
+            &:active{
+                color: #fff !important;
+            }
+        }
+    }
+}
+
+
+
+
+.canderButton, .canderButtonDisabled, .canderButtonNoThanks{
+    margin: 16px auto;
+    @media (max-width: $max-600) {
+        margin: 0 auto;
+    }
+}
+
+.canderButtonDisabled{
+    @media (max-width: $max-600) {
+        margin-bottom: 15px;
+    }
+}
+
+.canderButtonNoThanks{
+    width: 67px !important;
+    height: 35px !important;
+    @media(max-width: $max-600){
+        font-size: 18px !important;
+        line-height: 21px !important;
+    }
+    color: #D53E20 !important;
+}
+
+#canderRedText{
+    color: red;
+}
+
+#canderModal{
+    width: 100vw;
+    max-width: 1920px;
+    height: 100vh;
+    //max-height: 1080px;
+    // width: 100vw;
+    // height: 100vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999999;
+    overflow: hidden;
+
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    @media (max-width: $max-mobile){
+        width: 100vw;
+        height: 100%;
+        // height: calc(100vh - 70px);
+    }
+    * {
+        box-sizing: border-box;
+    }
+
+    .cander-chosen-card-preloader{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 15;
+        img{
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+    #canderContent{
+        iframe {
+            border: 0;
+            width: 100%;
+            height: 100%;
+        }
+        width: 100%;
+        height: 100%;
+        max-width: 1053px;
+        max-height: 730px;
+        background: #f2f3fc;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+        @media(max-width: 1053px){
+            max-height: 100%;
+        }
+        @media(min-width: 1053px){
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+            border-radius: 8px;
+        }
+    }
+
+    .cander-screen{
+        position: relative;
+        height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        .cander-close-button{
+            position: absolute;
+            top: 25px;
+            right: 71px;
+            z-index: 10;
+            cursor: pointer;
+            @media (max-width: 1053px){
+                top: 25px;
+                right: 19px;
+            }
+        }
+        .cander-back-button{
+            position: absolute;
+            width: fit-content;
+            top: 25px;
+            left: 71px;
+            z-index: 10;
+            cursor: pointer;
+            @media (max-width: 1053px){
+                top: 25px;
+                left: 19px;
+            }
+        }
+        .cander-chosen-card{
+            height: 70%;
+            position: relative;
+            //perspective: 1000px;
+            margin-bottom: 12px;
+            
+            img{
+                max-width: 100%;
+                /* height: auto; */
+                max-height: 100%;
+                margin-right: 0;
+            }
+            .cander-chosen-card-front{
+                backface-visibility: hidden;
+            }
+            .cander-chosen-card-front, .cander-chosen-card-back{
+                position: absolute;
+                height: fit-content;
+                width: 100%;
+                height: 100%;
+                left: 0;
+                top: 0;
+                display: flex;
+                transition: 1s;
+                backface-visibility: hidden;
+                z-index: 10;
+                @media (max-width: 1053px) {
+                    padding: 50px 0;
+                }
+                @media (max-width: $max-600) {
+                    padding: 25px 0;
+                    max-width: 315px;
+                    max-height: 587px;
+                }
+            }
+            .cander-chosen-card-front{
+                //display: none;
+            }
+            .cander-chosen-card-back{
+                transform: rotateY(180deg);
+                .cander-chosen-card-back-wrap{
+                    background-color: #fff;
+                    width: 100%;
+                    height: 100%;
+                    position: relative;
+                    .cander-chosen-card-back-content{
+                        width: 100%;
+                        height: 100%;
+                        .tap-to-type{
+                            display: block;
+                            padding: 15px 25px;
+                            border-radius: 30px;
+                            background-color: #f2f3fc;
+                            position: absolute;
+                            top: 40%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            color: #333;
+                            white-space: nowrap;
+                            min-width: 120px;
+                            @media (max-width: $max-mobile){
+                                top: 25%;
+                            }
+                        }
+                    }
+                }
+
+                .cander-chosen-card-back-buttons{
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 10px 15px;
+                    background-color: $cander-dark-pink;
+                    .cander-secondary-button{
+                        width: 100%;
+                        height: 33%;
+                        display: flex;
+                        flex-direction: column;
+                        margin: 5px 0;
+                        background-color: #fff;
+                        img{
+                            margin-bottom: 12px;
+                            margin-right: 0;
+                        }
+                    }
+                    #createVideoMessage{
+                        img{
+                            width: 30px;
+                        }
+                    }
+                    #createAudioMessage{
+                        img{
+                            width: 24px;
+                        }
+                    }
+                    #createGiftMessage{
+                        img{
+                            width: 27px;
+                        }
+                    }
+                }
+            }
+        }
+        &#canderItScreen{
+            .button-block{
+                margin-top: 10px;
+                height: 10%;
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+
+    .kUppLN{
+        min-width: 0px !important;
+    }
+}
+
+#buttonCloseCanderModal{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 30px;
+    color: #000;
+    cursor: pointer;
+}
+
+#canderItScreen, #canderChooseScreen, #canderResultPage, #canderImageScreen{
+    opacity: 0;
+    height: 100%;
+}
+#canderImageScreen{
+    padding: 0 !important;
+}
+
+#canderResultPage{
+    .cander-result-items{
+        position: relative;
+        width: 100%;
+        height: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px;
+        @media (max-width: $max-mobile){
+            //flex-direction: column;
+        }
+        @media (max-width: 1053px){
+            height: 50%;
+        }
+        .cander-result-item{
+            position: relative;
+            padding: 10px 10px 25px;
+            height: fit-content;
+            max-height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100%;
+            min-width: 150px;
+            @media (max-width: $max-mobile){
+                height: 100%;
+            }
+            &.cander-result-item-image{
+                min-width: 50%;
+                max-width: 50%;
+                height: 100%;
+                @media (max-width: $max-mobile){
+                    height: 100%;
+                }
+                @media (min-width: 1053px){
+                    min-width: fit-content;
+                    padding: 10px 30px 25px;
+                }
+            }
+            img, video{
+                max-width: 100%;
+            }
+            video{
+                //max-height: calc(100vh - 100px);
+                max-height: 100%;
+            }
+            img{
+                max-height: 100%;
+            }
+            .cander-card-title{
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 17px;
+                text-align: center;
+                padding-top: 10px;
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                transform: translate(-50%, 0);
+                width: 100%;
+                margin-bottom: 0;
+            }
+            #canderResultImage{
+                max-height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        .cander-result-item{
+            .cander-result-item-source{
+                display: flex;
+            }
+            &.cander-result-item-image-single{
+                #canderResultImage{
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    img{
+                        height: auto;
+                    }
+                }
+            }
+            &.cander-result-item-source{
+                max-width: 50%;
+                position: relative;
+            }
+        }
+    }
+    .cander-inputs-block{
+        width: 100%;
+        margin: 0 auto;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        @media (max-width: $max-mobile){
+
+        }
+        .cander-input-field{
+            position: relative;
+            width: 100%;
+            max-width: 326px;
+            padding: 5px 0;
+            label{
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 19px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #000;
+            }
+            input{
+                background: #FFFFFF;
+                border: 1px solid #F4F4F4;
+                box-sizing: border-box;
+                box-shadow: 4px 4px 8px rgba(154, 154, 154, 0.25);
+                border-radius: 10px;
+                height: 40px;
+                width: 100%;
+                padding: 0px 15px 0 55px;
+                font-size: 12px;
+            }
+            ::-webkit-input-placeholder {
+                font-size: 12px;
+                color: #9A9A9A;
+            }
+            :-moz-placeholder {
+                font-size: 12px;
+                color: #9A9A9A;
+            }
+            ::-moz-placeholder {
+                font-size: 12px;
+                color: #9A9A9A;
+            }
+            :-ms-input-placeholder {
+                font-size: 12px;
+                color: #9A9A9A;
+            }
+            #canderResultRecipientInputAlert{
+                position: absolute;
+                width: 100%;
+                left: 10px;
+                top: -15px;
+                color: red;
+            }
+        }
+    }
+    .button-block{
+        display: flex;
+        align-items: flex-end;
+    }
+    .cander-source-preloader{
+        width: 80px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #canderResultAudio{
+        max-width: calc(100% - 28px);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+#canderModal{
+    .button-block{
+        position: relative;
+        .cander-powered-by{
+            position: absolute;
+            bottom: 15px;
+            left: 50%;
+            transform: translate(-50%, 0);
+            @media(max-width: $max-600){
+                bottom: -5px;
+            }
+        }
+    }
+    
+    .cander-buttons-line{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 34px;
+        @media(max-width: $max-600){
+            margin-right: -4px;
+            margin-left: -4px;
+            padding: 30px 0;
+        }
+        @media (max-width: 375px){
+            padding: 10px 0;
+        }
+        .cander-secondary-button{
+            display: flex;
+            width: 33%;
+            margin: 0 11px;
+            padding: 10px;
+            max-width: 100%;
+            @media(max-width: $max-600){
+                margin: 0 4px;
+                padding: 8px;
+                flex-direction: column;
+                height: 100px;
+                font-size: 15px;
+                line-height: 16px;
+                img{
+                    margin-bottom: 10px;
+                }
+            }
+            @media(max-width: 375px){
+                height: 75px;
+                padding: 5px;
+                font-size: 12px;
+            }
+        }
+    }
+    
+    .cander-vertical-block{
+        flex-direction: column;
+    }
+    
+    .rotate
+    {
+        //transform: rotate3d(0, 1, 0, -90deg);
+    
+        .cander-chosen-card-front{
+            transform: rotateY(-180deg) !important;
+        }
+        .cander-chosen-card-back{
+            transform: rotateY(0deg) !important;
+        }
+    }
+    
+    .cander-result-text{
+        font-size: 12px;
+        line-height: 15px;
+        color: #000;
+        text-align: center;
+        max-width: 444px;
+        margin: 0 auto;
+        padding: 20px 0;
+        @media (max-width: 375px) {
+            padding: 10px 0;
+        }
+    }
+
+    .cander-button-block-result{
+        height: 50%;
+        padding: 20px 10px 0;
+        @media(min-width: 1053px){
+            padding-top: 0;
+            height: 50%;
+        }
+        .cander-inputs-block{
+
+        }
+        .button-block{
+            padding-bottom: 16px;
+            @media(max-width: 1053px){
+                margin-top: 16px;
+            }
+            @media(max-width: 350px){
+                margin-top: 0px;
+            }
+        }
+        .cander-button{
+            max-width: 326px !important;
+        }
+        .cander-powered-by{
+            margin-top: 18px;
+            justify-content: center;
+            @media(max-width: 1053px){
+                margin-top: 10px;
+            }
+            @media(max-width: 350px){
+                margin-top: 0;
+            }
+        }
+        .iti__flag-container{
+            width: 90px;
+        }
+        .iti__selected-flag{
+            border-radius: 10px 0 0 10px;
+        }
+        #canderResultImage{
+            @media(min-width: 1053px){
+                padding-top: 60px;
+                padding-bottom: 30px;
+            }
+        }
+    }
+
+    .cander-main-top-block{
+        height: 25%;
+        display: block;
+        background-color: #ffffff;
+        padding: 0 50px;
+        z-index: 9;
+        border-top: 1px solid #E5E5E5;
+        @media(max-width: 1053px){
+            padding: 0 15px;
+            //height: 27%;
+            height: fit-content;
+        }
+        p{
+            margin: 20px 0 0;
+        }
+        .cander-main-top-block-desctop{
+            display: block;
+            @media(max-width: $max-600){
+                display: none;
+            }
+        }
+        .cander-main-top-block-mobile{
+            display: none;
+            margin-top: 10px;
+            @media(max-width: $max-600){
+                display: block;
+            }
+        }
+    }
+
+    .cander-modal-body{
+        height: 82%;
+        padding: 20px 0;
+        .cander-chosen-card{
+            height: 85%;
+        }
+        .button-block{
+            height: 15%;
+        }
+    }
+
+    .cander-modal-footer{
+        height: 8%;
+        background-color: #ffffff;
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        padding: 0 15px;
+        @media(max-width: 1053px){
+            background-color: $cander-pink;
+            justify-content: center;
+        }
+    }
+
+    .cander-cards-block{
+        height: 57%;
+        overflow-y: scroll;
+        @media(max-width: 1053px){
+            height: calc(82% - 150px);
+            // height: 55%;
+        }
+    }
+
+    .cander-pink-background{
+        background-color: $cander-pink;
+    }
+    .cander-white-background{
+        background-color: #fff;
+    }
+
+    .cander-text-center{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .cander-modal-header{
+        background-color: #fff;
+        height: 10%;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        .cander-modal-header-text{
+            font-size: 1.2rem;
+            line-height: 1.6rem;
+        }
+    }
+
+    #canderItButton.cander-button{
+        max-width: 265px;
+    }
+}
+
+.iti--container{
+    z-index: 10000 !important;
+    filter: none !important;
+}
+
+
+#canderMainScreen{
+    padding: 0 !important;
+    font-family: 'Brandon';
+    h2{
+        margin: 0;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 24px;
+        padding-bottom: 8px;
+        @media (max-width: 1053px) {
+            padding-top: 36px;
+        }
+    }
+    h3{
+        margin: 0;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 20px 10px;
+    }
+    p{
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+.cander-stop-scroll{
+    overflow: hidden;
+    & > *:not(#canderModal){
+        @media (min-width: $max-600) {
+            filter: blur(4px);
+        }
+    }
+}
+
+.canderInitial{
+    .cander-initial-button{
+        height: 48px !important;
+        max-width: 100% !important;
+        text-align: center !important;
+        background: $cander-red !important;
+        color: #fff !important;
+        font-weight: 500 !important;
+        font-size: 16px !important;
+        line-height: 20px !important;
+        cursor: pointer !important;
+        display: flex;
+        align-items: center !important;
+        justify-content: center !important;
+        border: 1px solid $cander-red !important;
+        @media(min-width: $max-600){
+            width: 326px !important;
+        }
+        &:hover{
+            color: #fff !important;
+            background: #ED4727 !important;
+        }
+        &:active{
+            color: #fff !important;
+            background: #CB2F10 !important;
+            border: 1px solid #CB2F10 !important;
+        }
+    }
+}
+
+.canderProductPage{
+    margin: 10px 0;
+    .cander-initial-block{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+    .cander-primary-button, .cander-secondary-button{
+        background-color: #000 !important;
+        color: #fff !important;
+        height: 72px !important;
+        font-size: 20px !important;
+        line-height: 24px !important;
+        border: 0px !important;
+        width: 100% !important;
+        font-weight: 500 !important;
+        @media(max-width: $max-600){
+            height: 60px !important;
+            font-size: 16px !important;
+            line-height: 20px !important;
+        }
+    }
+    .canderButtonNoThanks.cander-secondary-button{
+        color: #fff !important;
+        max-width: 100%;
+        &:active{
+            color: #fff !important;
+            background-color: #000 !important;
+            img{
+                display: block;
+            }
+        }
+    }
+    .cander-image-product{
+        width: 24px;
+        height: 24px;
+        margin: 0;
+        margin-right: 16px;
+        @media(max-width: $max-600){
+            width: 20px;
+            height: 20px;
+        }
+    }
+    .button-preloader{
+        right: 0;
+    }
+}
+
+
+.cander-hide{
+    display: none !important;
+    opacity: 0;
+    transition: all 1s linear;
+}
+
+
+.cander-show{
+    opacity: 1;
+    display: block !important;
+    transition: all 1s linear;
+}

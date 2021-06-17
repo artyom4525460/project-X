@@ -1,0 +1,121 @@
+@import './fonts';
+
+$cander-red: #D53E20;
+$cander-border-hover: #FAB4A6;
+$cander-border: #D5D5D5;
+$cander-background-active: #FAF5F4;
+$cander-pink: #FAF5F4;
+$cander-dark-pink: #F8E9E6;
+$max-mobile: 900px;
+$min-desktop: 1240px;
+$max-600: 600px;
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  position: relative;
+  width: 315px;
+  max-width: 100%;
+  height: 50px;
+  margin: 0 auto;
+  color: #fff;
+  padding: 17px 25px;
+  background: linear-gradient(90deg,#d36c59,#f3a598);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.primary-button {
+  height: 48px;
+  max-width: 100%;
+  text-align: center;
+  background: #d53e20;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #d53e20;
+  &:hover{
+    color: #fff;
+    background: #ED4727;
+  }
+  &:active{
+    color: #fff;
+    background: #CB2F10;
+    border: 1px solid #CB2F10;
+  }
+}
+
+.secondary-button {
+  font-family: 'Rubik', sans-serif;
+  height: 50px;
+  max-width: 100%;
+  text-align: center;
+  background: transparent;
+  color: $cander-red !important;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid $cander-border;
+  font-size: 16px;
+  line-height: 17px;
+  max-width: 263px;
+  @media(max-width: $max-600){
+      padding: 8px;
+      font-size: 12px;
+      line-height: 12px;
+      max-width: 272px;
+      height: 65px;
+  }
+  img{
+      @media(min-width: $max-600){
+          margin-right: 15px;
+      }
+  }
+  img.active{
+      display: none;
+  }
+  &:hover{
+      color: $cander-red;
+      border: 1px solid $cander-border-hover;
+  }
+  &:active{
+      border: 1px solid $cander-border-hover;
+      background-color: $cander-red !important;
+      color: #fff !important;
+      img{
+          display: none;
+      }
+      img.active{
+          display: block;
+      }
+  }
+}
+
+#themesList {
+  background-image: url('../images/select.svg');
+}
+
+.pink-background {
+  background-color: #faf5f4;
+}
+
+.hide {
+    display: none!important;
+}
+
+.preloader {
+  img {
+    width: 70px !important;
+    height: auto !important;
+  }
+}

@@ -1,0 +1,15 @@
+$theme-font-path: 'https://candershopifyapp.com';
+
+@font-face {
+    font-family: "Rubik";
+    src: url("#{$theme-font-path}/fonts/Rubik-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Rubik";
+    src: url("#{$theme-font-path}/fonts/Rubik-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
